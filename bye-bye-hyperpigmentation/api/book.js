@@ -82,7 +82,7 @@ module.exports = async (req, res) => {
     endTime,
     selectedTimezone,
     title:                    name ? `${SERVICE_NAME} — ${name}` : SERVICE_NAME,
-    appointmentStatus:        "confirmed",
+    appointmentStatus:        "new",
     ignoreDateRange:          true,
     ignoreFreeSlotValidation: true,
     toNotify:                 true,
